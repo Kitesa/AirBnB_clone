@@ -85,7 +85,7 @@ class TestBaseModel(unittest.TestCase):
         """Test for __str__ representation."""
 
         b = BaseModel()
-        self.assertEqual(str(b), "[BaseModel]({}) {}".format(b.id, b.__dict__))
+        self.assertEqual(str(b), f"[BaseModel] ({b.id}) {b.__dict__}")
 
     def test_3_to_dict(self):
         """Tests for __dict__ public instance."""
