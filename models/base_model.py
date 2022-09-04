@@ -7,6 +7,7 @@ from datetime import datetime
 import models
 
 class BaseModel:
+
     """Custom base for all the classes in the AirBnb console project
 
     Arttributes:
@@ -64,7 +65,7 @@ class BaseModel:
 
     def to_dict(self):
         """
-       returns a dictionary containing all 
+        returns a dictionary containing all
         keys/values of class  __dict__ instance
         """
         map_objects = {}
