@@ -6,7 +6,6 @@ which sub-classes the `BaseModel()` class.`
 """
 from models.base_model import BaseModel
 
-
 class Review(BaseModel):
     """A review of a place/house.
 
