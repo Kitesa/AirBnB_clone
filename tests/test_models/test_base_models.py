@@ -49,7 +49,6 @@ class TestBaseModel(unittest.TestCase):
         msg = "__init__() missing 1 required positional argument: 'self'"
         self.assertEqual(str(e.exception), msg)
 
-
     def test_3_datetime_created_at(self):
         """Tests if created_at is a datetime obj."""
 
@@ -86,7 +85,7 @@ class TestBaseModel(unittest.TestCase):
         """Test for __str__ representation."""
 
         b = BaseModel()
-        self.assertEqual(str(b), "[BaseModel] ({}) {}".format(b.id, b.__dict__))
+        self.assertEqual(str(b), "[BaseModel]({}) {}".format(b.id, b.__dict__))
 
     def test_3_to_dict(self):
         """Tests for __dict__ public instance."""
