@@ -99,8 +99,6 @@
 .places .amenities {
     margin-top: 40px;
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
     text-align: left;
     width: 100%;
 }
@@ -115,7 +113,7 @@
     padding-top: 2px;
 }
 
-.places .amenities li {
+.places .amenities ul li {
     display: flex;
     text-align: justify;
 }
