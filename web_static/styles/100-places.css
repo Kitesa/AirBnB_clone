@@ -96,6 +96,10 @@
     text-align: left;
 }
 
+.places article .amenities {
+    width: 100%;
+}
+
 .places article .amenities h2 {
     font-size: 16px;
     padding: 0px;
