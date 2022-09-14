@@ -96,29 +96,25 @@
     text-align: left;
 }
 
-.place .amenities {
-    margin-top: 40px;
-    list-style-type: none;
+.places article .amenities h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
     text-align: left;
+    padding-bottom: 10px;
     width: 100%;
 }
 
-.place article .amenities h2 {
-    font-size: 16px;
-    border-bottom: 1px solid #DDDDDD;
-}
-
-.place article .amenities ul {
+.places article .amenities ul {
     list-style-type: none;
     padding-top: 2px;
 }
 
-.place article .amenities ul li {
+.places article .amenities li {
     display: flex;
     text-align: justify;
 }
 
-.place article .amenities li p {
+.places article .amenities li p {
     padding: 5px;
 }
 
