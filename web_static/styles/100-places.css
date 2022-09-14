@@ -147,11 +147,11 @@
 }
 
 .places article .reviews h2 {
-    font-size: 16px;
-    border-bottom: 1px solid #DDDDDD;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
     text-align: left;
-    padding-bottom: 10px;
-    width: 100%;
+    border-bottom: 1px solid #DDDDDD
 }
 
 .places article .reviews ul {
@@ -167,8 +167,7 @@
     font-size: 14px;
     padding: 0px;
     margin: 0px;
-    text-align: left;                                                                                            
-    border-bottom: 1px solid #DDDDDD;
+    text-align: left;
 }
 
 .places article .reviews p {
