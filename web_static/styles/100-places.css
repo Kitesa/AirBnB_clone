@@ -96,6 +96,15 @@
     text-align: left;
 }
 
+.places artice .amenities {
+    width : 100%;
+    margin-top: 40px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
 .places article .amenities h2 {
     font-size: 16px;
     border-bottom: 1px solid #DDDDDD;
