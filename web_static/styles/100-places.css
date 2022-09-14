@@ -98,6 +98,8 @@
 
 .places article .amenities {
     width: 100%;
+    align-iems: left;
+    text-align:left;
 }
 
 .places article .amenities h2 {
