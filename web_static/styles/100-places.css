@@ -100,8 +100,6 @@
     width : 100%;
     margin-top: 40px;
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
     text-align: left;
 }
 
@@ -116,6 +114,7 @@
 .places article .amenities ul {
     list-style-type: none;
     padding-top: 2px;
+    padding-left: 0;
 }
 
 .places article .amenities li {
