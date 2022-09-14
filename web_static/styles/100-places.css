@@ -159,6 +159,9 @@
     padding-left: 0px;
     margin-left: 0px;
 }
+.places article .reviews ul li {
+    margin-bottom: 10px;
+}
 
 .places article .reviews h3 {
     font-size: 14px;
