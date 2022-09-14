@@ -95,3 +95,52 @@
     margin-top: 0;
     text-align: left;
 }
+
+.places .amenities {
+    margin-top: 40px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+.places .amenities h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: left;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.places .amenities ul {
+    list-style-type: none;
+    padding-top: 2px;
+}
+
+.places .amenities li {
+    display: flex;
+    text-align: justify;
+}
+
+.places .amenities li p {
+    padding: 5px;
+}
+
+.icon_tv {
+    background-image: url(../images/icon_tv.png);
+    height: 50px;
+    width: 50px;
+}
+
+.icon_wifi {
+    background-image: url(../images/icon_wifi.png);
+    height: 50px;
+    width: 50px;
+}
+
+.icon_pets {
+    background-image: url(../images/icon_pets.png);
+    height: 50px;
+    width: 50px;
+}
