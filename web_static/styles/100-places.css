@@ -154,8 +154,10 @@
     width: 100%;
 }
 
-.places article .reviews ul li {
+.places article .reviews ul {
     list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
 }
 
 .places article .reviews h3 {
