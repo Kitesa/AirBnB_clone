@@ -96,29 +96,29 @@
     text-align: left;
 }
 
-.amenities {
+.place article .amenities {
     margin-top: 40px;
     list-style-type: none;
     text-align: left;
     width: 100%;
 }
 
-.amenities h2 {
+.place article .amenities h2 {
     font-size: 16px;
     border-bottom: 1px solid #DDDDDD;
 }
 
-.amenities ul {
+.place article .amenities ul {
     list-style-type: none;
     padding-top: 2px;
 }
 
-.amenities ul li {
+.place article .amenities ul li {
     display: flex;
     text-align: justify;
 }
 
-.amenities li p {
+.place article .amenities li p {
     padding: 5px;
 }
 
