@@ -96,12 +96,6 @@
     text-align: left;
 }
 
-.places artice .amenities {
-    width : 100%;
-    margin-top: 40px;
-    list-style-type: none;
-}
-
 .places article .amenities h2 {
     font-size: 16px;
     padding: 0px;
@@ -126,16 +120,18 @@
 
 .icon_tv {
     background-image: url(../images/icon_tv.png);
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }
 
 .icon_wifi {
     background-image: url(../images/icon_wifi.png);
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }
 
 .icon_pets {
     background-image: url(../images/icon_pets.png);
+    height: 50px;
+    width:50px
 }
