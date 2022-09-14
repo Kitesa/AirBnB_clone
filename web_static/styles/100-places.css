@@ -165,9 +165,10 @@
 
 .places article .reviews h3 {
     font-size: 14px;
-    text-align: left;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;                                                                                            
+    border-bottom: 1px solid #DDDDDD;
 }
 
 .places article .reviews p {
