@@ -163,6 +163,8 @@
 .places article .reviews h3 {
     font-size: 14px;
     text-align: left;
+    padding: 0;
+    margin: 0;
 }
 
 .places article .reviews p {
