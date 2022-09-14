@@ -103,9 +103,8 @@
 .places article .amenities h2 {
     font-size: 16px;
     padding: 0px;
-    position: relative;
-    left: 0;
     margin: 0px;
+    text-align: left;
     border-bottom: 1px solid #DDDDDD;
 }
 
