@@ -94,7 +94,7 @@ button {
     display: block;
 }
 
-@media screen (max-width: 400px){
+@media screen and (max-width: 400px){
     background-color: #00FF00;
     width: 100%;
 }
